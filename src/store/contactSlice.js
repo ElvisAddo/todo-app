@@ -10,7 +10,7 @@ const contactSlice = createSlice({
   reducers: {
     addContact(state, action) {
       const { firstName, lastName, email, comments } = action.payload || {};
-      if (!firstName || !email) return;
+      if (!firstName || !email || !comments || !lastName) return;
       state.contacts.unshift({
         id: nanoid(),
         firstName,
