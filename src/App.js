@@ -11,10 +11,10 @@ return (
 <NavBar />
 <main className="container">
 <Routes>
-<Route path="/" element={<Navigate to="/todos" replace />} />
+<Route path="/" element={<Navigate to="/" replace />} />
 <Route path="/todos" element={<TodosPage />} />
 <Route path="/contact" element={<ContactPage />} />
-<Route path="*" element={<Navigate to="/todos" replace />} />
+<Route path="*" element={<div>Not Found</div>} />
 </Routes>
 </main>
 </div>
