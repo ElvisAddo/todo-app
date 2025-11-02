@@ -14,7 +14,7 @@ return (
 <Route path="/" element={<Navigate to="/todos" replace />} />
 <Route path="/todos" element={<TodosPage />} />
 <Route path="/contact" element={<ContactPage />} />
-<Route path="*" element={<div>404</div>} />
+<Route path="*" element={<Navigate to="/todos" replace />} />
 </Routes>
 </main>
 </div>
