@@ -32,13 +32,13 @@ export default function ContactPage() {
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div>
                 <label>
-                    First name
+                    First Name
                     <input name="firstName" value={form.firstName} onChange={handleChange} required />
                 </label>
                 </div>
                 <div>
                 <label>
-                    Last name
+                    Last Name
                     <input name="lastName" value={form.lastName} onChange={handleChange} required />
                 </label>
                 </div>
