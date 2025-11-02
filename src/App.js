@@ -12,7 +12,7 @@ return (
 <main className="container">
 <Routes>
 <Route path="/" element={<Navigate to="/" replace />} />
-<Route path="/todos" element={<TodosPage />} />
+<Route path="/todo-app" element={<TodosPage />} />
 <Route path="/contact" element={<ContactPage />} />
 <Route path="*" element={<div>Not Found</div>} />
 </Routes>
