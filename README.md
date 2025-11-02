@@ -1,7 +1,7 @@
 # 📝 Todo App
 
 **Author:** Elvis Addo  
-**Live Demo:** [https://elvisaddo.github.io/todos]
+**Live Demo:** [https://elvisaddo.github.io/todo-app/]
 
 A simple, state-managed **Todo application** built with **React** and **Redux Toolkit**.  
 This app allows users to manage their daily tasks and send feedback through a contact form.
