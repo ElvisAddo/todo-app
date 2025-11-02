@@ -24,7 +24,8 @@
   contactForm: {
     firstName: string,
     lastName: string,
-    message: string
+    message: string,
+    comment : string
   }
 }
 
